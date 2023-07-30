@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Delta X", "Ocean")
+local Window = Library.CreateLib("Delta X [Beta]", "Ocean")
     -- HOME
     local Home = Window:NewTab("Home")
     local HomeSection = Home:NewSection("Home")
