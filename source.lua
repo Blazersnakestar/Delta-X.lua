@@ -53,6 +53,10 @@ local Window = Library.CreateLib("Delta X [Beta]", "Ocean")
         loadstring(game:HttpGet('https://pastebin.com/raw/kLF5E3tf'))()
     end)
 
+    PlayerSection:NewButton("ESP Players", "Makes you All Player where is it.", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/UDU4AKTf'))()
+    end)
+
     --- Scripts
     local Scripts = Window:NewTab("Scripts")
     local ScriptsSection = Scripts:NewSection("Scripts")
